@@ -2,9 +2,9 @@ name: CI workflow
 
 on:
   push:
-    branches: https://github.com/hassansarmaddev/ci-cd-final-project.git
+    branches: [main]
   pull_request:
-    branches: https://github.com/hassansarmaddev/ci-cd-final-project.git
+    branches: [main]
 
 jobs:
   build:
